@@ -1,0 +1,12 @@
+echo "Switching to stag..."
+git checkout stag
+echo "Merge master into stag..."
+git merge master
+echo "Switching to prod..."
+git checkout prod
+echo "Merge stag into prod..."
+git merge stag
+echo "Pushing..."
+git push origin prod stag master
+echo "Switching back to master..."
+git checkout master

@@ -1,0 +1,12 @@
+{
+  "apps" : [
+      {
+          "name"        : "MPEXB_v2",
+          "script"      : "./app.js",
+          "env_prod_v2" : {
+              "NODE_ENV": "prod_v2",
+              "PORT": 7612
+          }
+      }
+  ]
+}

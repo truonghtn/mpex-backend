@@ -1,0 +1,9 @@
+echo "Switching to stag..."
+git checkout stag
+echo "Merge master into stag..."
+git merge master
+echo "Pushing..."
+git push origin stag master
+echo "Switching back to master..."
+git checkout master
+ssh -i ~/.ssh/id_rsa deploy@sv.stag.mpex.vn "~/cmd/deploy_mpexb"

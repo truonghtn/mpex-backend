@@ -1,0 +1,20 @@
+{
+  "globalDependencies": {
+    "bluebird": "registry:dt/bluebird#2.0.0+20160701023356",
+    "body-parser": "registry:dt/body-parser#0.0.0+20160619023215",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160715232503",
+    "memory-cache": "registry:dt/memory-cache#0.0.0+20160316155526",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "mysql": "registry:dt/mysql#0.0.0+20160316155526",
+    "randomstring": "registry:dt/randomstring#1.1.4+20160509083842",
+    "redis": "registry:dt/redis#0.12.1+20160728132028",
+    "request-promise": "registry:dt/request-promise#4.1.0+20161119044246",
+    "semver": "registry:dt/semver#5.3.0+20160801120957",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+  },
+  "dependencies": {
+    "async-lock": "registry:dt/async-lock#0.0.0+20160428043022",
+    "form-data": "registry:dt/form-data#0.0.0+20161115134730"
+  }
+}
